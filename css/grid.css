@@ -1,0 +1,123 @@
+.container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: 400px 70px 100px 200px auto 100px;
+  grid-template-areas:
+      "h h h h h h h h h h h"
+      "m m d d d i i i v v v"
+      "m m c c c c c c c c c"
+      "m m c c c c c c c c c"
+      "k k k k k k k k k k k"
+      "f f f f f f f f f f f"
+}
+
+.header{
+  grid-area: h;
+}
+
+.div1{
+  grid-area: d;
+}
+
+.div2{
+  grid-area: i;
+}
+
+.div3{
+  grid-area: v;
+}
+
+.menu{
+  grid-area: m;
+}
+
+.content{
+  grid-area: c;
+}
+
+.content2{
+  grid-area: k;
+}
+
+.footer{
+  grid-area: f;
+}
+
+@media only screen and (max-width:550px){
+  .container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px auto auto auto auto auto 100px;
+    grid-template-areas:
+    "h h"
+    "m d"
+    "m i"
+    "m v"
+    "c c"
+    "k k"
+    "f f"
+  }
+  .länk{
+    font-size: 0.5em;
+  }
+
+  .div1{
+    margin: 5px;
+  }
+
+  .div2{
+    margin: 5px;
+  }
+
+  .div3{
+    margin: 5px;
+  }
+}
+
+.sida2{
+height: 100%;
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: 400px 50px 100px auto 50px;
+grid-template-areas:
+    "w w w w w w w w w w w w"
+    "p p p p r r r r t t t t"
+    "å å å å å å å å å å å å"
+    "q q q q q q q q q q q q"
+}
+
+.högst{
+  grid-area: w;
+}
+
+.tilldisney{
+  grid-area: p;
+}
+
+.tillwikipedia{
+  grid-area: r;
+}
+
+.tillbaka{
+  grid-area: t;
+}
+
+.sammanfattning{
+  grid-area: å;
+}
+
+
+@media only screen and (max-width: 550px){
+  .sida2{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px repeat(3, 60px) auto;
+    grid-template-areas:
+        "w"
+        "p"
+        "r"
+        "t"
+        "å"
+    }
+}

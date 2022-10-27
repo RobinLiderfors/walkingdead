@@ -1,0 +1,335 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  color: rgb(255, 255, 255);
+  background: url("/Users/robinliderfors/Documents/walkingdead/walkingdead.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+  /*här är min header, det vill säga min rubrik*/
+}
+
+.h1{
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 0.85em;
+}
+
+.div1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  margin-right: 10px;
+  border-radius: 20px;
+  text-decoration: none;  
+  /*här är min första länk, till Disney+*/
+}
+
+.div2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  margin-right: 10px;
+  border-radius: 20px;
+  /*här är min länk till wikipedia*/
+}
+
+.div3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  margin-right: 10px;
+  border-radius: 20px;
+  /*här är min länk till nästa sida*/
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  /*här är min meny där jag lägger in interna länkar till sidan*/
+}
+
+
+
+.content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  background-color: rgb(119, 119, 119);
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.content2{
+  flex-direction: column;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  background-color: rgb(119, 119, 119);
+  /*här har jag content på sida 1*/
+}
+
+.säsonger{
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 5em;
+  font-weight: bold;
+}
+
+
+.footer{
+  flex-direction: column;
+  display: flex;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  /*här är min footer, den som är längst ned på sidan*/
+}
+
+.footers{
+  font-size: 1em;
+  /*här är content i min footer*/
+}
+
+.orlando{
+  text-align: left;
+}
+
+.högst{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 8em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-image: url(/Users/robinliderfors/Documents/walkingdead/walking.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*här är min header till sida2*/
+}
+
+.tilldisney{
+  display: flex;
+  font-size: 1em;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 5px;
+  /*länk till diseny*/
+}
+
+.tillbaka{
+  display: flex;
+  font-size: 1em;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 5px;
+  /*länk till sida1*/
+}
+
+.tillwikipedia{
+  display: flex;
+  font-size: 1em;
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 5px;
+  /*länk till wikipedia*/
+}
+
+.sammanfattning{
+  display: flex;
+  font-size: 3em;
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.länk{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  /*här stylar jag mina externa länkar*/
+}
+
+.länkar{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  /*här stylar jag mina interna länkar*/
+}
+
+.h2{
+  font-size: 2.4em;
+  justify-self: center;
+  align-self: flex-start;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  /*content i sida2*/
+}
+
+.h3{
+  font-size: 1.2em;
+  justify-self: center;
+  align-self: flex-start;
+  margin-left: 100px;
+  margin-right: 100px;
+  /*content i sida2*/
+}
+
+.undertext{
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1150px){
+  .högst{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 6em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-image: url(/Users/robinliderfors/Documents/walkingdead/walking.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .högst{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-image: url(/Users/robinliderfors/Documents/walkingdead/walking.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .högst{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-image: url(/Users/robinliderfors/Documents/walkingdead/walking.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  .tilldisney{
+    display: flex;
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+  }
+  
+  .tillbaka{
+    display: flex;
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+  }
+  
+  .tillwikipedia{
+    display: flex;
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+  }
+
+  .h2{
+    font-size: 2.4em;
+    justify-self: center;
+    align-self: flex-start;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .h3{
+    font-size: 1.2em;
+    justify-self: center;
+    align-self: flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .länkar{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    /*här stylar jag mina interna länkar*/
+  }
+
+  .content2{
+    align-items: center;
+  }
+}
