@@ -4,6 +4,7 @@
   grid-template-columns: repeat(11, 1fr);
   grid-template-rows: 400px 70px 100px 200px auto 100px;
   grid-template-areas:
+  
       "h h h h h h h h h h h"
       "m m d d d i i i v v v"
       "m m c c c c c c c c c"
@@ -28,7 +29,7 @@
   grid-area: v;
 }
 
-.menu{
+.menu-container{
   grid-area: m;
 }
 
@@ -47,7 +48,7 @@
 @media only screen and (max-width:550px){
   .container{
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px auto auto auto auto auto 100px;
+    grid-template-rows: 300px auto auto auto auto auto auto;
     grid-template-areas:
     "h h"
     "m d"
@@ -56,9 +57,6 @@
     "c c"
     "k k"
     "f f"
-  }
-  .lank{
-    font-size: 0.5em;
   }
 
   .div1{
