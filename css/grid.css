@@ -57,7 +57,7 @@
     "k k"
     "f f"
   }
-  .länk{
+  .lank{
     font-size: 0.5em;
   }
 
@@ -86,7 +86,7 @@ grid-template-areas:
     "q q q q q q q q q q q q"
 }
 
-.högst{
+.hogst{
   grid-area: w;
 }
 

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -100,7 +101,7 @@
   /*här har jag content på sida 1*/
 }
 
-.säsonger{
+.sasonger{
   display: flex;
   color: rgb(0, 0, 0);
   font-size: 5em;
@@ -128,11 +129,11 @@
   text-align: left;
 }
 
-.högst{
+.hogst{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  font-size: 8em;
+  font-size: 6em;
   font-weight: bold;
   color: rgb(0, 0, 0);
   background-image: url(/Users/robinliderfors/Documents/walkingdead/walking.jpeg);
@@ -189,14 +190,14 @@
   margin-right: 100px;
 }
 
-.länk{
+.lank{
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 0.8em;
   /*här stylar jag mina externa länkar*/
 }
 
-.länkar{
+.lankar{
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 0.8em;
@@ -230,7 +231,7 @@
 }
 
 @media only screen and (max-width: 1150px){
-  .högst{
+  .hogst{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -244,7 +245,7 @@
 }
 
 @media only screen and (max-width: 900px){
-  .högst{
+  .hogst{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -258,7 +259,7 @@
 }
 
 @media only screen and (max-width: 700px){
-  .högst{
+  .hogst{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -322,7 +323,7 @@
     margin-right: 50px;
   }
 
-  .länkar{
+  .lankar{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 0.8em;
