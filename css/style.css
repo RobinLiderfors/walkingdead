@@ -41,6 +41,10 @@
   margin-top: 10px;
 }
 
+img{
+  width: 100%;
+}
+
 .content2{
   flex-direction: column;
   font-weight:bold;
